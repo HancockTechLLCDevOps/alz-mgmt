@@ -9,7 +9,7 @@ on:
       terraform_action:
         description: 'Terraform Action to perform'
         required: true
-        default: 'apply'
+        default: 'destroy'
         type: choice
         options:
           - 'apply'
